@@ -49,6 +49,6 @@ All the code must to be in one file, and it must be in english.
 
 # Recommendations
 
-You can use flake8 to make the code more readable, in addition to adding the necessary comments.
+You can use flake8 to make the code more readable, and add the necessary comments.
 
 # Examples:
