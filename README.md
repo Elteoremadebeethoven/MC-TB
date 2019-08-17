@@ -19,27 +19,27 @@ Results:
 
 GitHub username.
 
-> Date:
+> Date
 
 Creation date.
 
-> Last update:
+> Last update
 
 If the code is already added to the repository and you want to improve it, here it goes the date of the last modification.
 
-> Contact (Optional):
+> Contact (Optional)
 
 Email, reddit username, etc.
 
-> OS:
+> OS
 
 Operating system (specified), Windows 10, Mac Sierra, Linux Fedora 30, etc.
 
-> Files (optional):
+> Files (optional)
 
 If the code needs audio, svg, images or some file you must list them, including the format.
 
-> Results:
+> Results
 
 Link to the gif, video or image.
 
