@@ -4,9 +4,7 @@ from manimlib.imports import *
 Author:         Elteoremadebeethoven
 Date:           August 17/2019
 Last update:    August 17/2019
-Contact*:       
 OS:             Linux ArchLabs
-Files*:         
 Results:        https://imgur.com/WOBQ7o9
 """
 
