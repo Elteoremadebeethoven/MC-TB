@@ -53,8 +53,8 @@ You can use flake8 to make the code more readable, and add the necessary comment
 
 # Examples:
 
-* [Orbit animation]()
-* [Spanish language]()
-* [Screen grid mobject]()
-* [Keyboard scene]()
-* [Intersection algoritm]()
+* [Orbit animation](https://github.com/Elteoremadebeethoven/Manim-community/blob/master/Animations/Orbit/orbit.py)
+* [Spanish language](https://github.com/Elteoremadebeethoven/Manim-community/tree/master/Idioms/Spanish)
+* [Screen grid mobject](https://github.com/Elteoremadebeethoven/Manim-community/blob/master/Mobjects/ScreenGrid)
+* [Keyboard scene](https://github.com/Elteoremadebeethoven/Manim-community/blob/master/Scenes/Keyboard/)
+* [Intersection algoritm](https://github.com/Elteoremadebeethoven/Manim-community/blob/master/Tools/Intersection/)
