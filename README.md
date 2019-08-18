@@ -43,8 +43,7 @@ If the code needs audio, svg, images or some file you must list them, including 
 
 Link to the gif, video or image.
 
-You can add an .md file in case you want to explain more the code, as you can see in orbits/
-Even if you only add one file, you should always place it in a folder.
+You can add an .md file in case you want to explain more the code, as you can see in Idioms/Spanish, even if you only add one file, you should always place it in a folder.
 All the code must to be in one file, and it must be in english.
 
 # Recommendations
