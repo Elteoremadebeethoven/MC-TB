@@ -1,7 +1,7 @@
 # Korean
 ## With `TextMobject`
 
-Using the instructions in this [link](https://www.overleaf.com/learn/latex/Korean) (Korean documents with pdfLaTeX) we deduce that our manimlib / tex_template.tex file should be as follows:
+Using the instructions in this [link](https://www.overleaf.com/learn/latex/Korean) (*Korean documents with pdfLaTeX*) we deduce that our _**manimlib/tex_template.tex**_ file should be as follows:
 
 **REMARK**: You must have the CJKutf8 package installed for this method to work, it is usually included in the full versions of LaTeX (MikTeX, TeXLive and MacTeX), if not, it is your task to investigate how it is installed individually, the installation will be different depending on your OS.
 ```latex
