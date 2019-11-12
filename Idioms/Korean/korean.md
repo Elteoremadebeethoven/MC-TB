@@ -54,8 +54,35 @@ class Korean(Scene):
 Result:
 <p align="center"><img src ="/Idioms/Korean/result.png" /></p>
 
-In order not to have to write so much LaTeX code when we want to write in Korean we can create a new TEX_TEMPLATE. For this, we can add the following to the manimlib/constants.py file:
+In order not to have to write so much LaTeX code when we want to write in Korean we can create a new TEX_TEMPLATE. For this, we can add the following to the _**manimlib/constants.py**_ file:
 
+```python
+with open(TEMPLATE_TEX_FILE, "r") as infile:
+    TEMPLATE_KOREAN_FILE_BODY = infile.read()
+    TEMPLATE_KOREAN_TEXT_FILE_BODY = TEMPLATE_KOREAN_FILE_BODY.replace(
+        TEX_TEXT_TO_REPLACE,
+        "\\begin{CJK}{UTF8}{}\\CJKfamily{mj}\n" + TEX_TEXT_TO_REPLACE + "\n\\end{CJK}",
+    )
+```
 
-# In `With` (available for versions from *20/Aug/19* onwards)
+And add this to the end of _**manimlib/mobject/svg/tex_mobject.py**_
+
+```python
+class KoreanText(TexMobject):
+    CONFIG = {
+        "template_tex_file_body": TEMPLATE_KOREAN_TEXT_FILE_BODY,
+    }
+```
+
+In this way, our *previous example* can be reduced to:
+
+```python
+class Korean(Scene):
+    def construct(self):
+        text = KoreanText("전체 문서에 대한 기본 정보를 소개 단락. $x^3$")
+        self.play(Write(text))
+        self.wait()
+```
+
+# With `Text` (available for versions from *20/Aug/19* onwards)
 See [this](https://github.com/3b1b/manim/pull/680) in the **UTF-8** section.
