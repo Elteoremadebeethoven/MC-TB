@@ -1,5 +1,5 @@
 # Korean
-# With `TextMobject`
+## With `TextMobject`
 
 Using the instructions in this [link](https://www.overleaf.com/learn/latex/Korean) (Korean documents with pdfLaTeX) we deduce that our manimlib / tex_template.tex file should be as follows:
 
@@ -84,5 +84,5 @@ class Korean(Scene):
         self.wait()
 ```
 
-# With `Text` (available for versions from *20/Aug/19* onwards)
+## With `Text` (available for versions from *20/Aug/19* onwards)
 See [this](https://github.com/3b1b/manim/pull/680) in the **UTF-8** section.
